@@ -17,8 +17,8 @@ public class HospitalInspectionApp
 
     public HospitalInspectionApp()
     {
-        // Frame settings (Sleek and minimalist look)
-        frame = new JFrame("Hospital Inspection Details");
+        // Frame settings
+        frame = new JFrame("Hospital Inspections");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(600, 400);  // Set a larger frame size
         frame.setResizable(false);  // Prevent resizing
@@ -32,7 +32,7 @@ public class HospitalInspectionApp
         txtHospitalName = new JTextField(15);
         txtLocation = new JTextField(15);
         JLabel lblName = new JLabel("Hospital Name:");
-        JLabel lblLocation = new JLabel("Location:");
+        JLabel lblLocation = new JLabel("Hospital Location:");
         inputPanel.add(lblName);
         inputPanel.add(txtHospitalName);
         inputPanel.add(lblLocation);
@@ -96,10 +96,10 @@ public class HospitalInspectionApp
         clearItem.addActionListener(e -> clearFields());
         exitItem.addActionListener(e -> System.exit(0));
 
-        // Show the frame with Apple-like look and feel
+        // Show the frame
         try
         {
-            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName()); // Apple-like system look
+            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
         }
         catch (Exception e)
         {
