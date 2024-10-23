@@ -19,9 +19,6 @@ The application has a fixed window size and supports a maximum of five inspectio
 - **Input Validation**: Ensures that all fields are filled and restricts the number of saved records to a maximum of five.
 - **Error Handling**: Displays appropriate error messages when users exceed the input limit or fail to provide all required information.
 
-## Screenshot
-![Hospital Inspection App](https://via.placeholder.com/600x400?text=Hospital+Inspection+App+Screenshot)
-
 ## How to Use
 
 1. **Add Hospital Details**: Enter the hospital name, location, and select the number of years since the last inspection from the dropdown.
@@ -43,7 +40,7 @@ The application has a fixed window size and supports a maximum of five inspectio
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/yourusername/HospitalInspectionApp.git
+    git clone https://github.com/HChristopherNaoyuki/hospital-inspection-app.git
     cd HospitalInspectionApp
     ```
 
@@ -65,6 +62,11 @@ The application has a fixed window size and supports a maximum of five inspectio
 HospitalInspectionApp/
 │
 ├── src/
-│   └── HospitalInspectionApp.java     # Main Java source file
-├── README.md                          # Project documentation
-└── .gitignore                         # Files to ignore in the repository
+│   └── HospitalInspectionApp.java
+├── LICENSE
+└── README.md
+```
+
+## LICENSE
+
+This project is licensed under the MIT license - see the [LICENSE](LICENSE) file for details.
